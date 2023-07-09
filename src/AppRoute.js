@@ -6,6 +6,7 @@ const AppRouter=()=>{
     return(
         <Routes>
             <Route path="/" element={<Home />}/>
+            <Route path="/user" element={<User />}/>
         </Routes>
     )
 }
