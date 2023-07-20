@@ -1,0 +1,7 @@
+axios interceptor
+axios interceptor are a powerful feature in the axios javascript library that allow us to intercept and modify http request and response before they are handled by the application.
+Interceptor commonly used for tasks like add authentication, headers, handling error response, or logging request information. 
+
+In axios, we can define interceptor for both request and response.
+Interceptor is a function that takes a configuration object for request or a response object for response.
+Interceptor can modify the data or headers of the request/response, or they can handle errors and return custom response.
